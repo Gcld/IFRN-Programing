@@ -13,7 +13,7 @@
                     <ColumnDefinition Width="19*"/>
                     <ColumnDefinition Width="126*"/>
                 </Grid.ColumnDefinitions>
-                <Label Content="Raio" HorizontalAlignment="Left" Margin="0,19,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                <Label Content="Raio" HorizontalAlignment="Left" Margin="0,17,0,0" VerticalAlignment="Top" Grid.Column="1"/>
                 <TextBox Name="raio" HorizontalAlignment="Left" Height="23" Margin="0,46,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
                 <Button Content="Calcular" HorizontalAlignment="Left" Margin="0,89,0,0" VerticalAlignment="Top" Width="231" Height="26" Click="Button_Click" Grid.Column="1"/>
                 <Label Content="Área" HorizontalAlignment="Left" Margin="0,124,0,0" VerticalAlignment="Top" Grid.Column="1"/>
