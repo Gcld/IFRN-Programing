@@ -1,0 +1,24 @@
+﻿<Window x:Class="Equação2grau.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Equação2grau"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="293.697" Width="356.303">
+    <Grid>
+        <Label Content="A" HorizontalAlignment="Left" Margin="36,32,0,0" VerticalAlignment="Top" Height="28" Width="25"/>
+        <Label Content="B" HorizontalAlignment="Left" Margin="127,32,0,0" VerticalAlignment="Top" Height="28" Width="23"/>
+        <Label Content="C" HorizontalAlignment="Left" Margin="219,32,0,0" VerticalAlignment="Top" Height="28" Width="23"/>
+        <TextBox Name="A" HorizontalAlignment="Left" Height="25" Margin="36,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="84"/>
+        <TextBox Name="B" HorizontalAlignment="Left" Height="25" Margin="127,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="83"/>
+        <TextBox Name="C" HorizontalAlignment="Left" Height="25" Margin="219,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="93"/>
+        <Button Content="Calcular" HorizontalAlignment="Left" Height="26" Margin="36,114,0,0" VerticalAlignment="Top" Width="273" Click="Button_Click"/>
+        <Label Content="Delta" HorizontalAlignment="Left" Height="30" Margin="36,147,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label Content="X1" HorizontalAlignment="Left" Margin="120,147,0,0" VerticalAlignment="Top" Height="29" Width="33"/>
+        <Label Content="X2" HorizontalAlignment="Left" Margin="217,147,0,0" VerticalAlignment="Top" Height="29" Width="34"/>
+        <TextBox Name="delt" HorizontalAlignment="Left" Height="42" Margin="36,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="73"/>
+        <TextBox Name="xizum" HorizontalAlignment="Left" Height="42" Margin="120,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <TextBox Name="xidos" HorizontalAlignment="Left" Height="42" Margin="219,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90"/>
+    </Grid>
+</Window>

@@ -1,0 +1,28 @@
+﻿<Window x:Class="Ex02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ex02"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="327.731" Width="468.487">
+    <Grid>
+        <GroupBox Header="Area e Volume" HorizontalAlignment="Left" Height="228" Margin="39,39,0,0" VerticalAlignment="Top" Width="393">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="19*"/>
+                    <ColumnDefinition Width="126*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Raio" HorizontalAlignment="Left" Margin="0,19,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                <TextBox Name="raio" HorizontalAlignment="Left" Height="23" Margin="0,46,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                <Button Content="Calcular" HorizontalAlignment="Left" Margin="0,89,0,0" VerticalAlignment="Top" Width="231" Height="26" Click="Button_Click" Grid.Column="1"/>
+                <Label Content="Área" HorizontalAlignment="Left" Margin="0,124,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                <Label Content="Volume" HorizontalAlignment="Left" Margin="142,124,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                <TextBox Name="area" HorizontalAlignment="Left" Height="23" Margin="40,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+                <TextBox Name="volume" HorizontalAlignment="Left" Height="23" Margin="142,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+</Window>
